@@ -12,7 +12,7 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: sftp://1.studio.boardgamearena.com/reversitutorialthenmal/
+        ftp-server: sftp://1.studio.boardgamearena.com/tutorialthenmal/
         ftp-username: thenmal
         ftp-password: ${{ secrets.YOUR_BGA_FTP_PASSWORD }}
         git-ftp-args: --insecure # if your certificate is setup correctly this can be removed (see known-hosts argument)
